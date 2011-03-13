@@ -1,12 +1,12 @@
 Summary:	Additional user level InfiniBand management utilities
 Summary(pl.UTF-8):	Dodatkowe narzędzia zarządzające InfiniBand
 Name:		ibutils
-Version:	1.5.6
+Version:	1.5.7
 Release:	1
 License:	BSD or GPL v2
 Group:		Networking/Utilities
 Source0:	http://www.openfabrics.org/downloads/ibutils/%{name}-%{version}.tar.gz
-# Source0-md5:	2b22094d4ae5016f409b4bb29e3d43cc
+# Source0-md5:	82c7e95508f38caec4e8b8b5437598e0
 Patch0:		%{name}-link.patch
 URL:		http://www.openfabrics.org/
 BuildRequires:	autoconf >= 2.59
