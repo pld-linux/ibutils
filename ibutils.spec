@@ -76,7 +76,7 @@ Statyczne biblioteki narzędziowe IB.
 
 %prep
 %setup -q
-%patch0 -p1
+%patch -P0 -p1
 
 for f in AUTHORS ChangeLog NEWS README THANKS ; do cp -l ibdm/${f} ${f}.ibdm ; done
 for f in AUTHORS NEWS README ; do cp -l ibis/${f} ${f}.ibis ; done
